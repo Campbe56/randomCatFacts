@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример математических операций на JavaScript</title>
+</head>
+<body>
+    <h1>Математические операции</h1>
+
+    <script>
+        // Объявление переменных
+        var a = 10;
+        var b = 5;
+
+        // Выполнение математических операций
+        var sum = a + b;
+        var difference = a - b;
+        var product = a * b;
+        var quotient = a / b;
+
+        // Вывод результатов на экран
+        document.write("<p>Сумма: " + sum + "</p>");
+        document.write("<p>Разность: " + difference + "</p>");
+        document.write("<p>Произведение: " + product + "</p>");
+        document.write("<p>Частное: " + quotient + "</p>");
+    </script>
+</body>
+</html>
